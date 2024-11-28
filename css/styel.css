@@ -1,0 +1,842 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.contener  {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../photo/main.jpeg');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    
+    
+    
+}
+.header {
+    position: relative;
+    top: 0;
+    
+
+}
+.logo img {
+    width: 12%;
+    margin-left: 5%;
+    position: relative;
+    top: 40px;
+    
+    z-index: 999;
+    top: 0;
+}
+.logo.scrolled {
+    background-color:rgb(255, 255, 255) ; 
+    transition: background-color 0.3s;
+    height: 80px;
+    
+}
+.navbar {
+    text-align: end;
+    word-spacing: 20px;
+    
+    position: fixed;
+    left: 40%;
+    top: 0;
+    font-weight: 200;
+    width: 59%;
+    z-index: 1000; 
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #070707;
+    font-size: 20px;
+    position: relative;
+    right: 10%;
+    top: 0;
+    
+}
+.navbar a:hover {
+    color: rgb(44, 132, 255);
+    
+}
+.navbar.scrolled {
+    background-color:rgb(255, 255, 255) ;  
+    transition: background-color 0.7s;
+    height: 60px;
+    
+    
+}
+
+
+.Learn {
+    position: relative;
+    top: 300px;
+    left: 5%;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px #fff;
+    width: 9%;
+    height: 50px;
+    font-size: 15px;
+    transition: 0.4s;
+    cursor: pointer;
+    
+}
+.VIEW{
+    position: relative;
+    top: 300px;
+    left: 5%;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 1px rgba(255, 255, 255, 0.30);
+    width: 12%;
+    background-color: rgba(255, 255, 255, 0.30);
+    height: 50px;
+    color: #ffffff;
+    transition: 0.4s;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn {
+    word-spacing: 10px;
+    position: relative;
+    bottom: 170px;
+    
+}
+.VIEW:hover {
+    background-color: #fff;
+    color: #000;
+    
+}
+.Learn:hover{
+    background-color: rgba(255, 255, 255, 0.339);
+}
+.veented {
+    width: 30%;
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    top:110px;
+    left: 5%;
+}
+.fadeInUp {
+    position: relative;
+    top: 100px;
+    left: 5%;
+    color: #fff;
+    font-size: 60px;
+}
+.visible {
+    position: relative;
+    top: 100px;
+    left: 5%;
+    color: #fff;
+    font-size: 20px;
+}
+.port img {
+    height: 750px;
+    position: relative;
+    top: 360px;
+    left: 5%;
+}
+.WelcometoEngage {
+    text-align: center;
+    position: relative;
+    left: 10%;
+    bottom: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000d2;
+    font-size: 20px;
+}
+.haveba p {
+    width: 40%;
+    position: relative;
+    left: 49%;
+    bottom: 170px;
+    line-height: 35px;
+    color: #000000a8;
+    font-size: 17px;
+}
+.start p {
+    position: relative;
+    left: 49%;
+    bottom: 150px;
+    line-height: 40px;
+    color: #000000a8;
+}
+.layr {
+    width: 100%;
+    height: 350px;
+    background-color: rgba(236, 236, 236, 0.538);
+    position: relative;
+    top: 15px;
+}
+.icons {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    
+    font-size: 40px;
+    
+}
+.circet {
+    font-size: 80px; 
+    position: relative;
+    top: 60px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.powerful {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 40px;
+    color: #656565c9;
+}
+.morbi {
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    left: 7%;
+    color: #656565c9;
+}
+.s {
+    position: relative;
+    left: 15%;
+}
+.a {
+    position: relative;
+    left: 10%;
+}
+.l {
+    position: relative;
+    left: 5%;
+}
+.learn img {
+    height: 500px;
+    position: relative;
+    left: 52%;
+    top: 250px;
+}
+.learn h1 {
+    position: relative;
+    bottom: 200px;
+    left: 4%;
+    color: #00000088;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.learn p {
+    width: 40%;
+    position: relative;
+    left: 4%;
+    bottom: 170px;
+    line-height: 30px;
+    color: #656565c9;
+}
+.y {
+    position: relative;
+    top: 0;
+    
+}
+.img4  {
+    position: relative;
+    top: 80px;
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../photo/ilya-pavlov-87472-600x420.jpeg');
+    background-repeat: no-repeat;
+}
+.bule {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(72, 139, 255);
+    opacity: .9;
+}
+.like {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 50px;
+    font-size: 35px;
+}
+.nub {
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    font-size: 50px;
+}
+.page {
+    position: relative;
+    top: 85px;
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    
+}
+.our {
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000000c3;
+    
+}
+.our h2 {
+    font-weight: 300;
+}
+.our p {
+    font-size: 18px;
+    color: #656565c9;
+    
+}
+.facil {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 50px;
+    
+}
+.facil h3 {
+    font-weight: 200;
+}
+.ipsum{
+    width: 30%;
+}
+.rr {
+    position: relative;
+    left: 240%;
+    bottom: 150px;
+    line-height: 30px;
+    color: #656565c9;
+}
+.qq {
+    position: relative;
+    left: 125%;
+    bottom: 20px;
+    line-height: 30px;
+    color: #656565c9;
+}
+.zz {
+    position: relative;
+    top: 80px;
+    left: 10%;
+    color: #656565c9;
+}
+.facil2 {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 70px;
+}
+.facil2 h3 {
+    font-weight: 200;
+}
+.ipsum2{
+    width: 30%;
+}
+.rrr {
+    position: relative;
+    left: 240%;
+    bottom: 240px;
+    line-height: 30px;
+    color: #656565c9;
+}
+.qqq {
+    position: relative;
+    left: 125%;
+    bottom: 120px;
+    line-height: 30px;
+    color: #656565c9;
+}
+.zzz {
+    position: relative;
+    bottom: 30px;
+    left: 10%;
+    color: #656565c9;
+}
+.layre3 {
+    width: 100%;
+    height: 800px;
+    background-color: rgb(249, 246, 242);
+}
+.vido {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    line-height: 50px;
+}
+.vido h3 {
+    font-size: 40px;
+    font-weight: 100;
+}
+.vido p {
+    font-size: 17px;
+}
+.vido2 {
+    text-align: center;
+    position: relative;
+    top: 150px;
+    cursor: pointer;
+}
+.recent {
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+    top: 200px;
+    font-size: 25px;
+}
+.recent h3 {
+    font-weight: 100;
+}
+.recent p {
+    font-size: 20px;
+    color: #656565c9;
+}
+.img5 img {
+    height: 420px;
+    position: relative;
+    top: 395px;
+    padding: 30px;
+    position: relative;
+    left: 2%;
+}
+.cont {
+    width: 28%;
+    height: 120%;
+    position: absolute;
+    left: 4.4%;
+    background:rgba(2, 2, 2, 0.4) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+    color: #fff7f7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    cursor: pointer;
+}
+
+.cont:hover{
+    opacity: 1;
+}
+.cont i {
+    font-size: 25px;
+}
+.fa-magnifying-glass {
+    position: relative;
+    right: 5%;
+    top: 30px;
+    
+    
+}
+.fa-link {
+    position: relative;
+    left: 9%;
+}
+.cool {
+    width: 28%;
+    height: 120%;
+    position: absolute;
+    left: 37%;
+    cursor: pointer;
+    background:rgb(0, 0, 0,0.4) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+    color: #fff7f7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.cool:hover{
+    opacity: 8;
+}
+.cool i {
+    font-size: 25px;
+}
+.fa-magnifying-glass {
+    position: relative;
+    right: 5%;
+    top: 30px;
+    
+    
+}
+.fa-link {
+    position: relative;
+    left: 9%;
+}
+
+
+.Brill{
+    width: 28%;
+    height: 120%;
+    left: 70%;
+    cursor: pointer;
+    position: absolute;
+    background:rgb(0, 0, 0,0.4) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+    color: #fff7f7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+} 
+.Brill:hover{
+    opacity: 8;
+}
+.Brill i {
+    font-size: 25px;
+}
+.fa-magnifying-glass {
+    position: relative;
+    right: 5%;
+    top: 30px;
+    
+    
+}
+.fa-link {
+    position: relative;
+    left: 9%;
+}
+.ttnn {
+    position: relative;
+    top: 500px;
+    padding: 20px;
+    width: 20%;
+    height: 65px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: rgba(73, 112, 253, 0.996);
+    border: solid 1px rgba(73, 112, 253, 0.996);
+    transition: all 0.4s;
+    font-size: 15px;
+    cursor: pointer;
+}
+.bttnntt {
+    text-align: center;
+    
+}
+.ttnn:hover {
+    background-color: #000000dc;
+    border: solid 1px #000000dc;
+}
+.ly {
+    width: 100%;
+    height: 800px;
+    background-color: rgba(225, 229, 232, 0.323);
+    position: relative;
+    top: 600px;
+}
+.ly h2 {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-size: 35px;
+    font-weight: 100;
+}
+.ly p {
+    text-align: center;
+    position: relative;
+    top: 120px;
+    color: #656565c9;
+    font-size: 18px;
+}
+.neww img {
+    height: 290px;
+    position: relative;
+    top: 200px;
+    left: 3%;
+    padding: 13px;
+}
+.you {
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.you h3 {
+    font-weight: 300;
+    font-size: 20px;
+}
+.pp {
+    position: relative;
+    top:100px;
+    width: 100%;
+    display: flex;
+}
+.layr7 {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(72, 139, 255) ;
+    position: relative;
+    top: 500px;
+    color: #fff;
+}
+.layr7 h5 {
+    text-align: center;
+    position: relative;
+    top: 120px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.by {
+    position: relative;
+    left: 45%;
+    top: 170px;
+    padding: 25px;
+    background-color: rgb(72, 139, 255) ;
+    border: solid 2px rgb(249, 249, 249);
+    border-radius: 4px;
+    color: #fff;
+    transition: all 0.4s;
+    font-size: 15px;
+    cursor: pointer;
+}
+.by:hover {
+    background-color: rgb(249, 249, 249);
+    color: #000000aa;
+}
+.footer {
+    width: 100%;
+    height: 500px;
+    background-color: #121111f2;
+    position: relative;
+    top: 500px;
+    
+}
+.footer img {
+    position: relative;
+    left: 5%;
+    bottom: 120px;
+}
+/* .footer p {
+    width: 30%;
+    position: relative;
+    bottom: 800px;
+    left: 2%;
+    line-height: 40px;
+    color: #ffffff44;
+    font-size: 15px;
+    
+    
+} */
+.last {
+    display: flex;
+    justify-content: space-around;
+
+}
+.last h4 {
+    position: relative;
+    left: 25%;
+    top: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+.last h3 {
+    position: relative;
+    left: 14%;
+    top: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+.last h5 {
+    position: relative;
+    left: 5%;
+    top: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+.poost {
+    line-height: 40px;
+    width: 80%;
+    
+}
+.poost p {
+    font-size: 15px;
+}
+.oo {
+    position: relative;
+    bottom: 230px;
+    left: 14%;
+    line-height: 50px;
+    font-weight: 100;
+}
+.contt {
+    position: relative;
+    left: 75%;
+    top: 160px;
+    font-weight: 100;
+    
+}
+.contt h5 {
+    font-size: 15px;
+    line-height: 50px;
+    color: #656565c9;
+}
+.contt i {
+    font-size: 20px;
+
+    
+}
+
+
+
+
+label{
+    display: none;
+}
+#check{
+    z-index: 3;
+    display: none;
+}
+@media screen and (max-width: 960px) {
+    header .navbar{
+        display: none;
+        cursor: pointer;
+    }
+    label {
+        display: block;
+        font-size: 25px;
+        cursor: pointer;
+        transition: 0.3s;
+        transition-property: color;
+        text-align: end;
+        margin-right: 25px;
+        position: relative;
+        left: 200px;
+    }
+    label:hover{
+        color: #ffffffcf;
+    }
+
+    label .fa-xmark{
+        display: none;
+        color: #101010;
+    }
+    label .fa-bars {
+        color: #000000;
+        position: relative;
+        right: 50%;
+    }
+   
+    #check:checked ~ header .navbar{
+        z-index: 2;
+        position: fixed;
+        background: rgb(202, 230, 230);
+        top: 0;
+        bottom: 0;
+        left: 15;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    #check:checked ~ header .navbar a {
+        
+        font-weight: 900px;
+        margin-right: 0;
+        margin-bottom: 50px;
+        letter-spacing: 2px;
+        color: #000;
+        overflow: hidden;
+    }
+    #check:checked ~ header .navbar i {
+        font-size: 20px;
+    }
+    #check:checked ~ header .navbar a:hover{
+        color: rgba(8, 244, 244, 0.821);
+    }
+    #check:checked ~ header label .fa-bars {
+        display: none;
+        
+    }
+    #check:checked ~ header label .fa-xmark {
+        z-index: 2;
+        display: block;
+        position: fixed;
+    }
+    .logo {
+        width: 250%;
+        position: relative;
+        right: 8%;
+        top: 20px;
+    }
+    .fadeInUp {
+        font-size: 40px;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+    .veented {
+        width: 90%;
+    }
+    .Learn {
+        width: 25%;
+    }
+    .VIEW {
+        width: 40%;
+    }
+    .btn {
+        margin-top: 5px;
+        
+    }
+    .port img {
+        height: 600px;
+        margin-top: 180px;
+    }
+    .WelcometoEngage {
+        position: relative;
+        top: 380px;
+        text-align: start;
+        font-size: 15px;
+        color: #000000a8;
+    }
+    .haveba {
+        position: relative;
+        top: 600px;
+        left: -100%;
+        width: 1000px;
+        
+        
+    }
+    .start p {
+        position: relative;
+        top: 450px;
+        left: -0.0px;
+        left: 20%;
+        width: 1000px;
+        
+    }
+    .body {
+        overflow: hidden;
+    }
+    .contener  {
+        
+        background-image:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../photo/main.jpeg');
+        position: relative;
+        background-position: center center;
+        background-size: contain;
+        box-sizing: border-box;
+        
+        
+
+    } 
+    
+}
